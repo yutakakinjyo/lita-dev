@@ -74,6 +74,7 @@ Vagrant.configure(2) do |config|
      sudo apt-get install -y git
      sudo apt-get install -y emacs
      sudo apt-get install -y redis-server
+     sudo apt-get install -y zsh
      sudo gem install lita
   SHELL
 end
