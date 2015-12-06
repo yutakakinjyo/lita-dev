@@ -77,5 +77,8 @@ Vagrant.configure(2) do |config|
      sudo apt-get install -y zsh
      sudo apt-get install -y g++
      sudo gem install lita
+     sudo gem uninstall -I eventmachine
+     sudo apt-get install libssl-dev
+     sudo gem install eventmachine
   SHELL
 end
